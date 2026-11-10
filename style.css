@@ -1,0 +1,131 @@
+/* *{
+    box-sizing: border-box;
+}
+.header{
+    background-color: #1f1b1b;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 70px;
+    
+}
+p#profession{
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.main,.article,.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    width: 49%;
+    min-height: 150px;
+    margin-left: 25.5%;
+    border: #dbcece solid 1px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 19px gray;
+}
+h3{
+    color: #0dbdbd;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.main p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.article p{
+    margin-left: 20px;
+    margin-top: -1px;
+}
+.footer p{
+    margin-left: 20px;
+    margin-top: 4px;
+}
+a {
+    text-decoration: none;
+} мой код */ 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f2eb;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #1f1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 50%;
+    min-height: 150px;
+    margin: 0 auto 12px;
+}
+
+.header h2 {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+#profession {
+    color: white;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.main,
+.article,
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    width: 49%;
+    min-height: 150px;
+    margin: 0 auto 12px;
+    padding: 20px;
+
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h3 {
+    color: #0dbdbd;
+    font-size: 20px;
+    margin: 0 0 12px;
+}
+
+.main p,
+.article p,
+.footer p {
+    margin: 4px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0dbdbd;
+    text-decoration: underline;
+}
